@@ -20,62 +20,71 @@
 		<link rel="stylesheet" type="text/css" href="../bootstrap.css">
 		<!--Style sheets-->
 		<link rel="stylesheet" type="text/css" href="./style.css">
-		<!--Fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Merienda&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Caudex&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
-		<div class="pageheader">
+	<div clas="container">
+		<h1 class="header">
 			4th Form Maths
-		</div>
+		</h1>
 
 		<div id="main" class="container-fluid row">
 			<div class="col-2 sidebar" id="sidebar-left">
-				<h6>Autumn term</h6>
-				<ul>
-					<li id="indices">Indices</li>
-					<li id="standard">Standard form</li>
-					<li id="pythagoras">Pythagoras</li>
-					<li id="trigonometry">Trigonometry</li>
-					<li id="lineareqn">Linear equations</li>
-					<li id="lineargraphs">Linear graphs</li>
-					<li id="changing">Changing the subject</li>
-					<li id="simultaneous">Simultaneous equations</li>
-					<li id="multiplying">Multiplying brackets</li>
-					<li id="factorisingq">Factorising quadratics</li>
-					<li id="solvingq">Solving quadratics</li>
-					<li id="percentages">Percentages, proportional change</li>
-				</ul>
-				<hr>
-				<h6>Spring term</h6>
-				<ul>
-					<li id="area">Area and volume</li>
-					<li id="arc">Arc, sector, segment</li>
-					<li id="average">Average, range</li>
-					<li id="cf">Cumulative freq., box plots</li>
-					<li id="histograms">Histograms</li>
-					<li id="bounds">Bounds</li>
-					<li id="similarity">Similarity, congruence</li>
-					<li id="areasimilar">Area, volume similar shapes</li>
-					<li id="inequalities">Inequalities</li>
-					<li id="shading">Shading regions</li>
-				</ul>
-				<hr>
-				<h6>Summer term</h6>
-				<ul>
-					<li id="transformations">Transformations</li>
-					<li id="probability">(Conditional) Probability</li>
-					<li id="speed">Speed, distance, time (curved graphs)</li>
-				</ul>
-				<hr>
-				<h6>After exams</h6>
-				<ul>
-					<li id="plotq">Plotting quadratics</li>
-					<li id="transq">Transformations of quadratics</li>
+				<ul class="nav nav-stacked">
+					<li><h6>Autumn term</h6></li>
+					<li>
+						<ul>
+							<li id="indices">Indices</li>
+							<li id="standard">Standard form</li>
+							<li id="pythagoras">Pythagoras</li>
+							<li id="trigonometry">Trigonometry</li>
+							<li id="lineareqn">Linear equations</li>
+							<li id="lineargraphs">Linear graphs</li>
+							<li id="changing">Changing the subject</li>
+							<li id="simultaneous">Simultaneous equations</li>
+							<li id="multiplying">Multiplying brackets</li>
+							<li id="factorising">Factorising quadratics</li>
+							<li id="solving">Solving quadratics</li>
+							<li id="percentages">Percentages, proportional change</li>
+						</ul>
+					</li>
+					<hr>
+					<li><h6>Spring term</h6></li>
+					<li>
+						<ul>
+							<li id="area">Area and volume</li>
+							<li id="arc">Arc, sector, segment</li>
+							<li id="average">Average, range</li>
+							<li id="cf">Cumulative freq., box plots</li>
+							<li id="histograms">Histograms</li>
+							<li id="bounds">Bounds</li>
+							<li id="similarity">Similarity, congruence</li>
+							<li id="areasimilar">Area, volume similar shapes</li>
+							<li id="inequalities">Inequalities</li>
+							<li id="shading">Shading regions</li>
+						</ul>
+					</li>
+					<hr>
+					<li><h6>Summer term</h6></li>
+					<li>
+						<ul>
+							<li id="transformations">Transformations</li>
+							<li id="probability">(Conditional) Probability</li>
+							<li id="speed">Speed, distance, time (curved graphs)</li>
+						</ul>
+					</li>
+
+					<hr>
+					<li><h6>After exams</h6></li>
+					<li>
+						<ul>
+							<li id="plotq">Plotting quadratics</li>
+							<li id="transq">Transformations of quadratics</li>
+						</ul>
+					</li>
 				</ul>
 			</div>
+
 
 			<div class="col-9" id="maincontent">
 				<div class="topics" id="indices">
@@ -308,8 +317,8 @@
 						Coming soon
 					</li>
 					<li>
-						<a href="#" id="dfm">
-							e.g.dr frost maths
+						<a href="https://drfrostmaths.com/" id="dfm">
+							Dr Frost Maths
 						</a>
 					</li>
 				</ul>
@@ -329,6 +338,7 @@
 				$('div#' + $(this).attr('id')).addClass('active-topic');
 			});
 		</script>
+	</div>
 	</body>
 
 </html>
